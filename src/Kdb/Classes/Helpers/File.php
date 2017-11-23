@@ -4,15 +4,7 @@ namespace Kdb\Classes\Helpers;
 
 use Kdb\Classes\KdbException;
 
-/**
- * File managing class
- *
- * @category Helpers
- * @author Grzegorz Kuźnik
- * @copyright (c) 2013, Grzegorz Kuźnik
- * @license http://opensource.org/licenses/MIT The MIT License
- * @link https://github.com/Greg0/Kdb-Database GitHub Repository
- */
+
 class File implements FileInterface {
 
     /**
@@ -42,9 +34,9 @@ class File implements FileInterface {
 
     public final function getPath()
     {
-        if (!defined('Kdb_DATA_PATH'))
+        if (!env('Kdb_DATA_PATH'))
         {
-            throw new KdbException('Please define constant Kdb_DATA_PATH (check README.md)');
+            throw new KdbException('Set ENV data path {Kdb_DATA_PATH }');
         }
         else if (!empty($this->type))
         {
