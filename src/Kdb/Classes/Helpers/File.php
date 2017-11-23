@@ -40,7 +40,7 @@ class File implements FileInterface {
         }
         else if (!empty($this->type))
         {
-            return Kdb_DATA_PATH . $this->name . '.' . $this->type . '.json';
+            return env('Kdb_DATA_PATH') . $this->name . '.' . $this->type . '.json';
         }
         else
         {
