@@ -1,17 +1,27 @@
 {
     "name": "sturt/kdb",
-    "description": "NoSQl PHP Database without Server Side",
+    "description": "NO-SQL PHP Database without Server Side",
+    "homepage": "http://github.com/Sturtuk/Kdb",
     "type": "library",
     "require": {
-        "laravel/framework": "5.5",
-        "mailgun/mailgun-php": "^2.3"
+        "graham-campbell/exceptions": "^10.0.0",
+        "php": ">=5.4"
     },
-    "license": "Free",
+
+    "license": "MIT",
     "authors": [
         {
             "name": "sturtuk",
             "email": "edwinsturt@hotmail.co.uk"
         }
     ],
-    "minimum-stability": "dev"
+    "autoload": {
+        "psr-0": {
+            "Kdb\\Classes\\": "src/"
+        },
+        "classmap": [
+            "tests/"
+        ]
+    }
+
 }
