@@ -1,0 +1,17 @@
+{
+    "name": "sturt/kdb",
+    "description": "NoSQl PHP Database without Server Side",
+    "type": "library",
+    "require": {
+        "laravel/framework": "5.5",
+        "mailgun/mailgun-php": "^2.3"
+    },
+    "license": "Free",
+    "authors": [
+        {
+            "name": "sturtuk",
+            "email": "edwinsturt@hotmail.co.uk"
+        }
+    ],
+    "minimum-stability": "dev"
+}
