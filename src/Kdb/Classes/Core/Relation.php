@@ -7,15 +7,7 @@ use Kdb\Classes\Helpers\Config;
 use Kdb\Classes\Database;
 use Kdb\Classes\KdbException;
 
-/**
- * Relation class of Kdb project.
- * 
- * @category Core
- * @author Grzegorz Kuźnik
- * @copyright (c) 2013, Grzegorz Kuźnik
- * @license http://opensource.org/licenses/MIT The MIT License
- * @link https://github.com/Greg0/Kdb-Database GitHub Repository
- */
+
 abstract class Core_Relation {
 
     /**

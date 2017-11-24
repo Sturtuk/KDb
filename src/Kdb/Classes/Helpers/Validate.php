@@ -5,15 +5,7 @@ namespace Kdb\Classes\Helpers;
 use Kdb\Classes\KdbException;
 use Kdb\Classes\Relation;
 
-/**
- * Validation for tables
- *
- * @category Helpers
- * @author Grzegorz Kuźnik
- * @copyright (c) 2013, Grzegorz Kuźnik
- * @license http://opensource.org/licenses/MIT The MIT License
- * @link https://github.com/Greg0/Kdb-Database GitHub Repository
- */
+
 class Validate {
 
     /**

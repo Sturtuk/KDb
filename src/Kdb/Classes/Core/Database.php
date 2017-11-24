@@ -7,19 +7,7 @@ use Kdb\Classes\Database;
 use Kdb\Classes\Relation;
 use Kdb\Classes\Helpers;
 
-/**
- * Core class of Kdb.
- *
- * There are classes to use JSON files like file database.
- *
- * Using style was inspired by ORM classes.
- *
- * @category Core
- * @author Grzegorz Kuźnik
- * @copyright (c) 2013, Grzegorz Kuźnik
- * @license http://opensource.org/licenses/MIT The MIT License
- * @link https://github.com/Greg0/Kdb-Database GitHub Repository
- */
+
 abstract class Core_Database implements \IteratorAggregate, \Countable {
 
     /**
